@@ -1,0 +1,142 @@
+@import url('http://fonts.cdnfonts.com/css/coming-soon-2');
+            *{
+                font-family: "Coming Soon";
+                margin: 0px;
+            }
+            img{
+                width: 50px;
+            }
+            body{
+                position: relative;
+                padding: 0;
+                height: 100vh;
+                padding-left: 250px;
+            }
+            hr{
+                border: 2px solid black;
+                margin-bottom: 10px;
+            }
+            nav{
+                position: absolute;
+                background-color: #4282FF;
+                left: 0px;
+                top: 0px;
+                bottom: 0px;
+                width: 250px;
+                display: flex;
+                flex-direction: column;
+                border-right: 1px solid black;
+                border-left: 1px solid black;
+            }
+            .title-div{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding-top: 25px;
+                padding-bottom: 25px;
+            }
+            .title-div h3{
+                font-weight: bolder;
+                color: white;
+            }
+            .title-div img{
+                height: 32px;
+            }
+            .balance-div{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 5px;
+                flex-direction: column;
+            }
+            .white-flexbox{
+                background-color: white;
+                padding: 5px;
+                margin-bottom: 5px;
+                display: flex;
+                margin-top: 5px;
+                margin-bottom: 5px;
+                align-items: center;
+            }
+            .white-flexbox div{
+                flex: 1;
+            }
+            .right-section{
+                display: flex;
+                flex-direction: column;
+            }
+            .white-flexbox div button{
+                display: block;
+                background-color: white;
+                border: none;
+                border: 1px solid #4282FF;
+                border-top-left-radius: 20px;
+                border-bottom-left-radius: 20px;
+                margin-top: 5px;
+                margin-bottom: 5px;
+                text-align: end;
+                cursor: pointer;
+            }
+            .log-out-div{
+                flex: 1;
+                display: flex;
+                flex-direction: column;
+                justify-content:end;
+                align-items: center;
+                padding-bottom: 15px;
+            }
+            main{
+                display: flex;
+                flex-direction: column;
+                height: 100%;
+            }
+            main section{
+                border: 1px solid black;
+            }
+            .top-section{
+                flex: 2;
+            }
+            .bottom-section{
+                display: flex;
+                flex: 1.5;
+            }
+            .bottom-section div{
+                flex: 1;
+            }
+            .action-flexbox{
+                border: none;
+                box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+                display: inline-block;
+                padding: 20px;
+                margin-top: 50px;
+            }
+            .action-flexbox p{
+                padding-top: 5px;
+                padding-bottom: 5px;
+            }
+            #buy-button{
+                background-color: #4282FF;
+                padding-left: 20px;
+                padding-right: 20px;
+                border: none;
+                padding-top: 5px;
+                padding-bottom: 5px;
+                border-radius: 30px;
+                color: white;
+                font-weight: bolder;
+                cursor: pointer;
+            }
+            table{
+                margin-top: 10px;
+                border: 1px solid black;
+                border-collapse: collapse;
+            }
+            td, th{
+                border: 1px solid black;
+                text-align: center;
+                min-width: 90px;
+            }
+            main{
+                padding-left: 25px;
+                padding-right: 25px;
+            }
